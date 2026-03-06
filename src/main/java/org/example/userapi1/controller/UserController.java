@@ -5,6 +5,8 @@ import org.example.userapi1.service.UserService;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+// CRUD endpoints for user management
+
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
